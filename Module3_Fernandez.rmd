@@ -1,30 +1,39 @@
 ---
-title: "Module3_Fernandez"
-author: "Fernandez_GianCarlo"
+title: "Module 3 Output"
+author: "Gian Carlo Fernandez"
 date: "7/23/2021"
-output: html_document
+output: 
+  html_document:
+    highlight: pygments
+    theme: darkly
 ---
+# Individual Quiz {.tabset}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Question 1
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### The life in hours of a battery is known to be approximately normally distributed with standard deviation σ=1.25 hours. A random sample of 10 batteries has a mean life of x̄= 40.5 hours. 
+<br>
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+#### Is there evidence to support the claim that battery life exceeds 40 hours? Use α=0.05.
+Given:
+<ul>
+  <li>σ = 1.25</li>
+  <li>n = 10</li>
+  <li>x̄= 40.5</li>
+  <li>∝ = 0.05</li>
+ </ul>
+ 
+#### What is the P-value for the test in part A?
 
-```{r cars}
-summary(cars)
-```
+#### What is the β-error for the text in part B if the true mean life is 42 hours?
 
-## Including Plots
+#### What sample size would be required to ensure that β does not exceed 0.10 if the true mean is 44 hours?
 
-You can also embed plots, for example:
+#### Explain how you could answer the question in part A by calculating an appropriate confidence bound on battery life.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Question 2
+
+### Brand A gasoline was used in 16 similar automobiles under identical conditions. The corresponding sample of 16 values (miles per gallon) had mean 19.6 and standard deviation 0.4. Under the same conditions, high-power brand B gasoline gave a sample of 16 values with mean 20.2 and standard deviation 0.6. Is the mileage of B significantly better than that of A? Assume normality. Test the hypothesis using both P-value and fixed significance level with α=0.05 approaches (if possible)
+
